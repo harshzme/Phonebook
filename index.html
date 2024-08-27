@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Phonebook</title>
+</head>
+<body>
+    <img class="bvu"src="bvu.png">
+    <img class="bvucoep"src="bvucoep.png">
+    <div class="container">
+        <h1>Phonebook</h1>
+        <div class="add-contact">
+            <input type="text" id="name" placeholder="Name" onkeyup="validateName()">
+            <input type="text" id="phone" placeholder="Phone Number" onkeypress="return isNumeric(event)">
+            <button onclick="addContact()">Add Contact</button>
+        </div>
+        <div class="search-contact">
+            <input type="text" id="search" placeholder="Search by Name" onkeyup="searchContacts()">
+        </div> 
+        <div class="contact-list">
+            <h2>Contact List</h2>
+            <ul id="contact-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

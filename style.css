@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("phone3.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 400px;
+    margin: 10% 10%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    /* background-color: #e7bc7d; */
+}
+
+h1 {
+    text-align: center;
+}
+
+.add-contact, .search-contact {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.contact-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+.submitted{
+    margin-top: -2rem;
+    text-align: center;
+}
+.submitted p{
+    font-size: 1.3rem;
+}
+.bvu{
+    height: 8rem;
+}
+.bvucoep{
+    float: left;
+    height: 5rem;
+    margin-left: 85%;
+    margin-top: -7rem;
+}
